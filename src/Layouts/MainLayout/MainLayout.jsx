@@ -1,8 +1,8 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Footer from "../../Components/Footer/Footer";
 import NavbarUi from "../../Components/Navbar/Navbar";
 import Sidebar from "../../Components/asideBar/AsideBar";
+
 
 export default function MainLayout() {
   return (
@@ -23,6 +23,7 @@ export default function MainLayout() {
           </div>
         </div>
       </main>
+      
     </>
   );
 }
