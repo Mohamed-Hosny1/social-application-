@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 import AuthLayout from "./Layouts/AuthLayout/AuthLayout";
 import NewsFeed from "./Pages/NewsFeed/NewsFeed";
-import NotFound from "./Pages/NotFoundPage/NotFound";
 import PostDetails from "./Pages/PostDetails/PostDetails";
 import UserProfile from "./Pages/UserProfile/UserProfile";
 import Register from "./Pages/Auth/Register/Register";
@@ -78,7 +77,6 @@ function App() {
         },
       ],
     },
-    { path: "*", element: <NotFound /> },
   ]);
   return (
     <>
