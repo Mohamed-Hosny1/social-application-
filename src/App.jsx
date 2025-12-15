@@ -4,7 +4,6 @@ import {
   Navigate,
   RouterProvider,
 } from "react-router-dom";
-import MainLayout from "./Layouts/MainLayout/MainLAyout";
 import AuthLayout from "./Layouts/AuthLayout/AuthLayout";
 import NewsFeed from "./Pages/NewsFeed/NewsFeed";
 import PostDetails from "./Pages/PostDetails/PostDetails";
@@ -14,6 +13,7 @@ import Register from "./Pages/Auth/Register/Register";
 import Login from "./Pages/Auth/Login/Login";
 import AppProtectedRoutes from "./Components/ProtectedRoutes/AppProtectedRoutes";
 import AuthProtectedRoutes from "./Components/ProtectedRoutes/AuthProtectedRoutes";
+import MainLayout from "./Layouts/MainLayout/MainLayout";
 
 function App() {
   const router = createBrowserRouter([
