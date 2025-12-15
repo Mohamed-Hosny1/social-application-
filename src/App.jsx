@@ -8,7 +8,7 @@ import AuthLayout from "./Layouts/AuthLayout/AuthLayout";
 import NewsFeed from "./Pages/NewsFeed/NewsFeed";
 import PostDetails from "./Pages/PostDetails/PostDetails";
 import UserProfile from "./Pages/UserProfile/UserProfile";
-import NotFound from "./Pages/NotFoundPAge/NotFound";
+import NotFound from "./Pages/NotFoundPage/NotFound";
 import Register from "./Pages/Auth/Register/Register";
 import Login from "./Pages/Auth/Login/Login";
 import AppProtectedRoutes from "./Components/ProtectedRoutes/AppProtectedRoutes";
@@ -50,7 +50,6 @@ function App() {
             </AppProtectedRoutes>
           ),
         },
-        { path: "*", element: <NotFound /> },
       ],
     },
     {
@@ -79,6 +78,7 @@ function App() {
         },
       ],
     },
+    { path: "*", element: <NotFound /> },
   ]);
   return (
     <>
